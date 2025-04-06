@@ -9,11 +9,10 @@ import {
   ChartCandlestick, 
   TrendingUp, 
   User, 
-  Settings, 
   LogOut
 } from 'lucide-react';
 
-const Sidebar = ({ setUser }) => { // Accept setUser as a prop
+const Sidebar = ({ setUser }) => {
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -27,9 +26,10 @@ const Sidebar = ({ setUser }) => { // Accept setUser as a prop
   const handleLogout = () => {
     console.log("Logging out...");
     googleLogout();
-    setUser(null); // Now this should work
-    localStorage.removeItem("user");
-    navigate('/'); // Redirect to login page after logout
+    setUser(null);
+    localStorage.removeItem("isLoggedIn");
+    sessionStorage.clear();
+    navigate('/'); // Redirect to login page
   };
 
   return (

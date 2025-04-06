@@ -1,30 +1,92 @@
+/* Login.css */
 .login-container {
+  background-color: #0d1117;
+  color: #ffffff;
+  font-family: 'Google Sans', sans-serif;
+  min-height: 100vh;
+  padding: 40px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background: #f8f9fa;
-  text-align: center;
+  gap: 40px;
 }
 
-.login-intro h1 {
-  font-size: 2rem;
+.about-section,
+.objective-section,
+.login-intro,
+.login-box {
+  background-color: #161b22;
+  padding: 30px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-section:hover,
+.objective-section:hover,
+.login-intro:hover,
+.login-box:hover {
+  transform: translateY(-4px);
+}
+
+.about-section h1,
+.objective-section h2,
+.login-intro h1,
+.login-box h2 {
+  color: #58a6ff;
   margin-bottom: 10px;
 }
 
+.about-section p,
+.objective-section p,
 .login-intro p {
-  font-size: 1.2rem;
-  color: #555;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #c9d1d9;
 }
 
 .login-box {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-.login-box h2 {
+.login-box p {
+  color: #f85149;
+}
+.navbar {
+  width: 100%;
+  padding: 15px 30px;
+  background-color: #21262d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
   margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #58a6ff;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #c9d1d9;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #58a6ff;
 }
