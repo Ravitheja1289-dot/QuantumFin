@@ -1,6 +1,6 @@
 # GenAI-Powered Financial Assistant
 
-## Team: HackStack
+## Team: QuantumFin
 **Event:** Google GDG Hackathon - Vision2Skill  
 
 ## Overview
@@ -58,8 +58,8 @@ GenAI-Powered Financial Assistant is an intelligent financial advisor that lever
 - **Stock Market Analysis** – Provide AI-driven insights into market trends.
 
 ## Contact
-- **Team:** HackStack
-- **Email:** hackstack.dev@gmail.com
+- **Team:** Quantum Fin
+- **Email:** ravithejareddy1289@gmail.com
 - **GitHub:** [https://github.com/QuantumFin](https://github.com/QuantumFin)
 
 Let's redefine financial management with AI! 🚀
