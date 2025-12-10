@@ -60,7 +60,7 @@ GenAI-Powered Financial Assistant is an intelligent financial advisor that lever
 ## Contact
 - **Team:** HackStack
 - **Email:** hackstack.dev@gmail.com
-- **GitHub:** [https://github.com/hackstack](https://github.com/hackstack)
+- **GitHub:** [https://github.com/QuantumFin](https://github.com/QuantumFin)
 
 Let's redefine financial management with AI! 🚀
 
