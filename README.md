@@ -23,7 +23,7 @@ GenAI-Powered Financial Assistant is an intelligent financial advisor that lever
 ## Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hackstack/genai-financial-assistant.git
+   git clone https://github.com/QuantumFin.git
    cd genai-financial-assistant
    ```
 2. Install dependencies:
